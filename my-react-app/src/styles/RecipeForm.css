@@ -1,0 +1,11 @@
+.recipe-form-container {
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  
+  @media (max-width: 600px) {
+    .recipe-form-container {
+      padding: 16px;
+    }
+  }
+  

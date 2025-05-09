@@ -1,0 +1,11 @@
+.filter-container {
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  
+  @media (max-width: 600px) {
+    .filter-container {
+      padding: 12px;
+    }
+  }
+  

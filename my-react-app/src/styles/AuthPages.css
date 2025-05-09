@@ -1,0 +1,26 @@
+.auth-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-paper {
+    padding: 32px;
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .auth-paper {
+      padding: 24px;
+    }
+  
+    .auth-container {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+  
