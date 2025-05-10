@@ -24,7 +24,7 @@ import type { Recipe } from "../types/recipe"
 import type { RootState } from "../store/store"
 import { deleteRecipe } from "../store/recipeSlice"
 import { getDifficultyLabel } from "../utils/helpers"
-import "../styles/RecipeCard.css"
+
 
 interface RecipeCardProps {
   recipe: Recipe
